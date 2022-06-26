@@ -17,6 +17,7 @@ def compare(*args):
         offset_x+=img.size[0]
 
     image_finale.show()
+    return image_finale
 
 # im1=Image.open(dir_images/"rose.jpg")    
 # im2=Image.open(dir_images/"ville.jpg")
